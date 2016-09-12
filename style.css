@@ -28,7 +28,6 @@ nav ul li {
 }
 
 
-
 li a {
 	display: block;
 	text-decoration: none;
@@ -72,35 +71,44 @@ img {
     margin-right: auto
 }
 
-h3 {
+h3, h4 {
 	text-align: center;
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
 	padding: 6px;
-}
-
-#roster {
-	max-width: 100%;
-	position: relative;
-	left: 300px;
 	font-size: 20px;
-	background-image: url("belt.png");
-	background-repeat: no-repeat;
-	background-position: left;  
 }
 
-
-
-#raw {
+#roster ul {
 	display: inline-block;
-}
-
-#sdlive {
-	display: inline-block;
-}
-
+	position: relative;
+	left:400px;
+	font-size: 18px;
 	
 
+}
+
+.raw {
+	font-size: 25px;
+}
+
+.sdlive {
+	font-size: 25px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 600px;
+	font-family: helvetica;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+th{
+	background-color: #4d94ff;
+}
 /*Margin added to at least one element
 A background image on at least one element
 
