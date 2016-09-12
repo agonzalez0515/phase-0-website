@@ -1,5 +1,6 @@
 body {
 	max-width:100%;
+
 }
 
 header > h1 {
@@ -7,7 +8,8 @@ header > h1 {
 	font-size: 40px;
 	border-bottom: 2px dotted;
 	border-bottom-color: red;
-	text-align: center;
+	padding-bottom: 10px;
+
 }
 
 
@@ -48,7 +50,7 @@ h2 {
 	padding: 2px;
 	position: relative;
 	top: 45px;
-	left: 85px;
+	left: 105px;
 	color: white;
 
 }
@@ -61,8 +63,8 @@ h2 {
 	border-radius: 4px;
 	padding: 20px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -76,7 +78,7 @@ h3, h4 {
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
 	padding: 6px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #roster ul {
@@ -84,23 +86,38 @@ h3, h4 {
 	position: relative;
 	left:400px;
 	font-size: 18px;
-	
+	margin-left: 4px;
+	margin-right: 20px;
+	padding: 20px;
 
 }
 
-.raw {
-	font-size: 25px;
+.belt {
+	background-image: url("belt.png");
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
 }
 
-.sdlive {
-	font-size: 25px;
+h5 {
+	text-decoration: underline;
+	font-size: 18px;
 }
+
 
 table {
 	border-collapse: collapse;
 	width: 600px;
 	font-family: helvetica;
+	margin-left: auto; 
+  margin-right: auto;
+
 }
+
+.moveset {
+	height: 300px;
+
+}
+
 
 th, td {
 	border: 1px solid black;
@@ -109,10 +126,13 @@ th, td {
 th{
 	background-color: #4d94ff;
 }
-/*Margin added to at least one element
-A background image on at least one element
 
+@media screen and (max-width: 840px) {
+  body {
 
+    font-size: .2em;  
+  }
 
+}
 
 
