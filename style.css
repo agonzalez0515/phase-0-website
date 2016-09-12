@@ -72,10 +72,24 @@ img {
     margin-right: auto
 }
 
-.roster {
+h3 {
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 6px;
+}
+
+#roster {
+	max-width: 100%;
 	position: relative;
-	left: 200px;
-    }
+	left: 300px;
+	font-size: 20px;
+	background-image: url("belt.png");
+	background-repeat: no-repeat;
+	background-position: left;  
+}
+
+
 
 #raw {
 	display: inline-block;
@@ -88,10 +102,9 @@ img {
 	
 
 /*Margin added to at least one element
-At least one centered element (a footer message can be nice for this)
 A background image on at least one element
-A different font on at least one element
-A few elements styled using a class
-A different color for visited links
-An element styled with an ID/*
+
+
+
+
 
