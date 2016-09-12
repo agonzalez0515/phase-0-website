@@ -1,3 +1,110 @@
-body{
-	background: pink;
+body {
+	max-width:100%;
 }
+
+header > h1 {
+	font-family: helvetica;
+	font-size: 40px;
+	border-bottom: 2px dotted;
+	border-bottom-color: red;
+	text-align: center;
+}
+
+
+.top-links {
+	list-style-type: none;
+	margin:0px;
+	padding:2px;
+	overflow: hidden;
+	background: #4d94ff;
+	}
+
+nav ul li {
+    display: inline-block;
+    border-right: 2px solid white;
+    margin: 5px;
+    text-align: center;
+
+}
+
+
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Georgia;
+	text-align: center;
+	padding: 7px;
+	
+}
+
+li a:visited {
+    color: red;
+}
+
+h2 {
+	display: inline; 
+	padding: 2px;
+	position: relative;
+	top: 45px;
+	left: 85px;
+	color: white;
+
+}
+.intro {
+	font-size: 17px;
+	font-family: helvetica;
+	width: 800px;
+	border: 2px solid #4d94ff;
+	border-top: 25px solid #4d94ff;
+	border-radius: 4px;
+	padding: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h3 {
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 6px;
+}
+
+#roster {
+	max-width: 100%;
+	position: relative;
+	left: 300px;
+	font-size: 20px;
+	background-image: url("belt.png");
+	background-repeat: no-repeat;
+	background-position: left;  
+}
+
+
+
+#raw {
+	display: inline-block;
+}
+
+#sdlive {
+	display: inline-block;
+}
+
+	
+
+/*Margin added to at least one element
+A background image on at least one element
+
+
+
+
+
