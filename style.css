@@ -1,5 +1,6 @@
 body {
 	max-width:100%;
+
 }
 
 header > h1 {
@@ -7,7 +8,8 @@ header > h1 {
 	font-size: 40px;
 	border-bottom: 2px dotted;
 	border-bottom-color: red;
-	text-align: center;
+	padding-bottom: 10px;
+
 }
 
 
@@ -26,7 +28,6 @@ nav ul li {
     text-align: center;
 
 }
-
 
 
 li a {
@@ -49,7 +50,7 @@ h2 {
 	padding: 2px;
 	position: relative;
 	top: 45px;
-	left: 85px;
+	left: 105px;
 	color: white;
 
 }
@@ -62,8 +63,8 @@ h2 {
 	border-radius: 4px;
 	padding: 20px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -72,39 +73,66 @@ img {
     margin-right: auto
 }
 
-h3 {
+h3, h4 {
 	text-align: center;
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
 	padding: 6px;
+	font-size: 25px;
 }
 
-#roster {
-	max-width: 100%;
+#roster ul {
+	display: inline-block;
 	position: relative;
-	left: 300px;
-	font-size: 20px;
+	left:400px;
+	font-size: 18px;
+	margin-left: 4px;
+	margin-right: 20px;
+	padding: 20px;
+
+}
+
+.belt {
 	background-image: url("belt.png");
 	background-repeat: no-repeat;
-	background-position: left;  
+	background-blend-mode: lighten;
+}
+
+h5 {
+	text-decoration: underline;
+	font-size: 18px;
 }
 
 
+table {
+	border-collapse: collapse;
+	width: 600px;
+	font-family: helvetica;
+	margin-left: auto; 
+  margin-right: auto;
 
-#raw {
-	display: inline-block;
 }
 
-#sdlive {
-	display: inline-block;
+.moveset {
+	height: 300px;
+
 }
 
-	
 
-/*Margin added to at least one element
-A background image on at least one element
+th, td {
+	border: 1px solid black;
+}
 
+th{
+	background-color: #4d94ff;
+}
 
+@media screen and (max-width: 840px) {
+  body {
 
+    font-size: .2em;  
+  }
+
+}
 
 
